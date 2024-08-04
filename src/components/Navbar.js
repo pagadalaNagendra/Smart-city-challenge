@@ -16,21 +16,21 @@ const Navbar = () => {
       <div className="drop">
         <select className="dropdown-menu" onChange={(e) => window.location.href = e.target.value}>
           <option value="">Select an Team</option>
-          <option value="/Eco-Sense">Eco-Sense</option>
-          <option value="/Vayu">Vayu</option>
-          <option value="/Radiance">Radiance</option>
-          <option value="/Horus">Horus</option>
-          <option value="/ANTAR_IOT">ANTAR_IOT</option>
-          <option value="/Yantram_Electronics">Yantram_Electronics</option>
-          <option value="/WareBOT">WareBOT</option>
-          <option value="/DBR_Innovative_Tech_Team">DBR_Innovative_Tech_Team</option>
-          <option value="/Hydrowverse">Hydrowverse</option>
-          <option value="/Nudron">Nudron</option>
-          <option value="/Scc_team">Scc_Team</option>
+          <option value="/scc-dashboard/Eco-Sense">Eco-Sense</option>
+          <option value="/scc-dashboard/Vayu">Vayu</option>
+          <option value="/scc-dashboard/Radiance">Radiance</option>
+          <option value="/scc-dashboard/Horus">Horus</option>
+          <option value="/scc-dashboard/ANTAR_IOT">ANTAR_IOT</option>
+          <option value="/scc-dashboard/Yantram_Electronics">Yantram_Electronics</option>
+          <option value="/scc-dashboard/WareBOT">WareBOT</option>
+          <option value="/scc-dashboard/DBR_Innovative_Tech_Team">DBR_Innovative_Tech_Team</option>
+          <option value="/scc-dashboard/Hydrowverse">Hydrowverse</option>
+          <option value="/scc-dashboard/Nudron">Nudron</option>
+          <option value="/scc-dashboard/Scc_team">Scc_Team</option>
         </select>
       </div>
       <div className="home-icon">
-        <Link to="/">
+        <Link to="/scc-dashboard">
           <FontAwesomeIcon icon={faHome} />
         </Link>
       </div>
