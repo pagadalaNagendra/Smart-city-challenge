@@ -20,19 +20,19 @@ const App = () => {
       <div>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Dashboard} />
-          <Route path="/Eco-Sense" component={Team1} />
-          <Route path="/Vayu" component={Team2} />
-          <Route path="/Radiance" component={Team3} />
-          <Route path="/Horus" component={Team4} />
-          <Route path="/ANTAR_IOT" component={Team5} />
-          <Route path="/Yantram_Electronics" component={Team6} />
-          <Route path="/WareBOT" component={Team7} />
-          <Route path="/DBR_Innovative_Tech_Team" component={Team8} />
-          <Route path="/Hydrowverse" component={Team9} />
-          <Route path="/Nudron" component={Team10} />
-          <Route path="/Scc_team" component={Team11} />
-          <Route path="/overalldashboard" component={Dashboard} />
+          <Route exact path="/scc-dashboard" component={Dashboard} />
+          <Route path="/scc-dashboard/Eco-Sense" component={Team1} />
+          <Route path="/scc-dashboard/Vayu" component={Team2} />
+          <Route path="/scc-dashboard/Radiance" component={Team3} />
+          <Route path="/scc-dashboard/Horus" component={Team4} />
+          <Route path="/scc-dashboard/ANTAR_IOT" component={Team5} />
+          <Route path="/scc-dashboard/Yantram_Electronics" component={Team6} />
+          <Route path="/scc-dashboard/WareBOT" component={Team7} />
+          <Route path="/scc-dashboard/DBR_Innovative_Tech_Team" component={Team8} />
+          <Route path="/scc-dashboard/Hydrowverse" component={Team9} />
+          <Route path="/scc-dashboard/Nudron" component={Team10} />
+          <Route path="/scc-dashboard/Scc_team" component={Team11} />
+          <Route path="/scc-dashboard/overalldashboard" component={Dashboard} />
         </Switch>
         <Footer />
       </div>
