@@ -1,0 +1,113 @@
+/* Ensure the body has no margin */
+body, html {
+  margin: 60px;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* color: #77B0AA; */
+}
+
+/* Page title adjustments */
+.page-title {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.167;
+  color: rgb(18, 52, 98);
+}
+
+/* Container for the parameters */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.parameter {
+  flex: 1 1 45%;
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.parameter h2 {
+  text-align: center;
+}
+
+.parameter table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+.parameter th{
+  color: #E3FEF7;
+}
+
+.parameter th, .parameter td {
+  border: 1px solid #135D66;
+  padding: 8px;
+  text-align: center;
+ 
+}
+
+/* Custom styles for tbody */
+.custom-tbody td {
+  font-weight: bold; /* Make text bold */
+  padding: 15px; /* Increase padding */
+  word-wrap: break-word; /* Allow long words to be broken and wrap onto the next line */
+  max-width: 20ch; /* Set a max-width to ensure text wraps after approximately 20 characters */
+  font-size: 47.2769px;
+  font-weight: 500;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #E3FEF7;
+}
+
+.custom-tbody{
+  height: 100%;
+  font-size: 50px;
+}
+
+
+.eco{
+  font-size: 50px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin-left: 30px;
+}
+
+body{
+  background-color: #77B0AA;
+}
+
+@media (max-width: 320px) {
+  .eco {
+    font-size: 19px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-left: -18px;
+    margin-top: 122px;
+  }
+}
+
+@media (max-width: 425px) {
+  .eco {
+    font-size: 22px; /* Adjust this value as needed */
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-left: -10px; /* Adjust this value as needed */
+    margin-top: 109px; /* Adjust this value as needed */
+  }
+}
+
+@media (max-width: 768px) {
+  .eco {
+    font-size: 42px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-left: -10px;
+    margin-top: 146px;
+  }
+}
